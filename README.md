@@ -1,10 +1,10 @@
 **NetProbe: Network Packet Analyzer**
 
-**  Overview**
+**Overview**
 
 NetProbe is a powerful Python script designed to function as a network packet analyzer or sniffer. It leverages the Scapy library to capture and inspect network traffic flowing through your selected interface. 
 
-**  Features**
+**Features**
 
 - **Cross-Protocol Analysis:** Deciphers packets across various protocols, including TCP (Transmission Control Protocol), UDP (User Datagram Protocol), and ICMP (Internet Control Message Protocol).
 - **Detailed Packet Information:** Provides comprehensive details for each captured packet, encompassing source and destination IP addresses, ports, protocols, and payload data (both in hexadecimal and decoded formats, if possible).
@@ -13,22 +13,22 @@ NetProbe is a powerful Python script designed to function as a network packet an
 - **Customizable Packet Capture:** Allows you to specify the number of packets to capture (enter 0 for continuous capture; press Ctrl+C to exit).
 - **Clear Output Formatting:** Presents captured packet information in a well-organized and visually appealing format using color coding for better readability.
 
-**  Requirements**
+**Requirements**
 
 - Python 3 ([https://www.python.org/downloads/](https://www.python.org/downloads/))
 - Scapy Library ([https://scapy.readthedocs.io/en/latest/](https://scapy.readthedocs.io/en/latest/)) - Installation: `pip install scapy`
 
-**  Important Note**
+**Important Note**
 
 Running NetProbe requires elevated privileges (root or administrator access) due to its interaction with network interfaces.
 
-**  Installation**
+**Installation**
 
 1. Clone this repository using `git clone https://github.com/Kushagra0686/PRODIGY_CS_05.git`.
 2. Navigate to the cloned directory: `cd PRODIGY_CS_05`.
 3. Install the required Scapy library: `pip install scapy`.
 
-**  Usage**
+**Usage**
 
 1. Execute the script: `python netprobe.py`.
 2. Follow the on-screen prompts:
@@ -36,7 +36,7 @@ Running NetProbe requires elevated privileges (root or administrator access) due
    - Optionally, specify a service protocol (TCP, UDP, or ICMP) to filter captured packets.
    - Choose the number of packets to capture (0 for continuous capture).
 
-**  Example Output**
+**Example Output**
 
 ```
 Available Interfaces:
@@ -68,10 +68,10 @@ This is an example of a TCP payload.
                     ░▒▓█ PACKET 2 █▓▒░ (and so on...)
 ```
 
-**  Contributing**
+**Contributing**
 
 We welcome contributions to improve NetProbe! Feel free to submit pull requests for bug fixes, feature enhancements, or documentation improvements.
 
-**  Disclaimer**
+**Disclaimer**
 
 Use NetProbe responsibly and ethically. It's intended for educational and network analysis purposes only. Do not violate any privacy laws or regulations while using this script.
