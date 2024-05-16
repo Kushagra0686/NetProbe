@@ -24,8 +24,8 @@ Running NetProbe requires elevated privileges (root or administrator access) due
 
 **Installation**
 
-1. Clone this repository using `git clone https://github.com/Kushagra0686/PRODIGY_CS_05.git`.
-2. Navigate to the cloned directory: `cd PRODIGY_CS_05`.
+1. Clone this repository using `git clone https://github.com/Kushagra0686/NetProbe`.
+2. Navigate to the cloned directory: `cd NetProbe`.
 3. Install the required Scapy library: `pip install scapy`.
 
 **Usage**
